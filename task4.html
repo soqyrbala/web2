@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 — Portfolio Page | Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">CSS<span>Lab</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="task1.html">Cards</a></li>
+        <li><a href="task2.html">Layout</a></li>
+        <li><a href="task3.html">Gallery</a></li>
+        <li><a href="task4.html" class="active">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-intro">
+      <h1>Task 4 — Portfolio Page</h1>
+      <p>
+        The header's navbar uses Flexbox, the main section uses Grid to place
+        projects on the left and info on the right, and each project card
+        uses Flexbox internally to arrange its image and text.
+      </p>
+    </div>
+
+    <section class="task">
+      <div class="portfolio-main">
+
+        <div class="projects">
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/proj1/220/180" alt="Project 1 thumbnail">
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>A small web app that fetches live weather data and displays it in a clean, responsive card layout.</p>
+              <button class="btn">View project</button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/proj2/220/180" alt="Project 2 thumbnail">
+            <div class="project-info">
+              <h3>Recipe Finder</h3>
+              <p>Search and filter recipes by ingredient, built with a Flexbox card grid and simple JavaScript filtering.</p>
+              <button class="btn">View project</button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/proj3/220/180" alt="Project 3 thumbnail">
+            <div class="project-info">
+              <h3>Task Tracker</h3>
+              <p>A minimal to-do list with drag-free reordering and a CSS Grid-based board layout.</p>
+              <button class="btn">View project</button>
+            </div>
+          </article>
+        </div>
+
+        <aside class="sidebar-box">
+          <h3>About</h3>
+          <p style="color:var(--muted); font-size:0.9rem; margin:0;">
+            Student portfolio built for Assignment #2, demonstrating combined
+            use of Flexbox and CSS Grid across a small multi-page site.
+          </p>
+          <h3>Skills</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Flexbox</span>
+            <span>Grid</span>
+            <span>Responsive Design</span>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Assignment #2 — Advanced CSS (Flexbox &amp; Grid)</div>
+  </footer>
+
+</body>
+</html>

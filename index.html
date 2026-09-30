@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 0 — Navbar | Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">CSS<span>Lab</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="task1.html">Cards</a></li>
+        <li><a href="task2.html">Layout</a></li>
+        <li><a href="task3.html">Gallery</a></li>
+        <li><a href="task4.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-intro">
+      <h1>Task 0 — Navigation Bar</h1>
+      <p>
+        The header above is a flex container: the logo sits on the left,
+        the link list sits on the right, everything is vertically centered,
+        and the links are spaced out using Flexbox's <code>gap</code> property.
+        This same navbar is reused across every page of the assignment.
+      </p>
+    </div>
+
+    <section class="task">
+      <h2>What to look at</h2>
+      <ul>
+        <li><code>.navbar</code> → <code>display: flex</code>, <code>justify-content: space-between</code>, <code>align-items: center</code></li>
+        <li><code>.nav-links</code> → <code>display: flex</code> with <code>gap</code> for even spacing</li>
+      </ul>
+      <p>Use the navbar above to move between the other tasks.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Assignment #2 — Advanced CSS (Flexbox &amp; Grid)</div>
+  </footer>
+
+</body>
+</html>

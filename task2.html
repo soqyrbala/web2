@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 — Page Layout with Grid Areas | Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">CSS<span>Lab</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="task1.html">Cards</a></li>
+        <li><a href="task2.html" class="active">Layout</a></li>
+        <li><a href="task3.html">Gallery</a></li>
+        <li><a href="task4.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-intro">
+      <h1>Task 2 — Page Layout with Grid Areas</h1>
+      <p>
+        A grid container split into named areas: header across the top,
+        sidebar on the left, main content on the right, footer across the bottom.
+      </p>
+    </div>
+
+    <section class="task">
+      <div class="grid-layout">
+        <div class="g-header"><strong>Header</strong> — spans the full width</div>
+        <div class="g-sidebar">
+          <strong>Sidebar</strong>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+        <div class="g-main">
+          <strong>Main content</strong>
+          <p>This area sits to the right of the sidebar and takes up the remaining space, defined with <code>grid-template-columns: 220px 1fr</code> and placed using <code>grid-template-areas</code>.</p>
+        </div>
+        <div class="g-footer"><strong>Footer</strong> — spans the full width</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Assignment #2 — Advanced CSS (Flexbox &amp; Grid)</div>
+  </footer>
+
+</body>
+</html>

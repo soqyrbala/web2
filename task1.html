@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1 — Card Row | Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">CSS<span>Lab</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="task1.html" class="active">Cards</a></li>
+        <li><a href="task2.html">Layout</a></li>
+        <li><a href="task3.html">Gallery</a></li>
+        <li><a href="task4.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-intro">
+      <h1>Task 1 — Card Row</h1>
+      <p>
+        Three cards laid out in a row with Flexbox. All cards share the
+        same height, have a consistent gap between them, and lift on hover.
+      </p>
+    </div>
+
+    <section class="task">
+      <div class="card-row">
+
+        <article class="card">
+          <img src="https://picsum.photos/seed/flexbox/400/240" alt="Flexbox illustration">
+          <div class="card-body">
+            <h3>Flexbox Basics</h3>
+            <p>One-dimensional layout for rows and columns, built around main and cross axes.</p>
+            <button class="btn">Learn more</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://picsum.photos/seed/gridcss/400/240" alt="CSS Grid illustration">
+          <div class="card-body">
+            <h3>CSS Grid</h3>
+            <p>Two-dimensional layout system for arranging content into rows and columns at once.</p>
+            <button class="btn">Learn more</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://picsum.photos/seed/responsive/400/240" alt="Responsive design illustration">
+          <div class="card-body">
+            <h3>Responsive Design</h3>
+            <p>Media queries and flexible units keep layouts usable on any screen size.</p>
+            <button class="btn">Learn more</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Assignment #2 — Advanced CSS (Flexbox &amp; Grid)</div>
+  </footer>
+
+</body>
+</html>
