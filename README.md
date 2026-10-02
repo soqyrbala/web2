@@ -24,11 +24,10 @@ Deployed with **GitHub Pages**:
 1. Push this repo to GitHub.
 2. Go to **Settings → Pages**.
 3. Set the source to the `main` branch, root folder.
-4. The site will be available at `https://<your-username>.github.io/<repo-name>/`.
+4. The site will be available at `https://github.com/soqyrbala/web2`.
 
-(Alternatively, drag-and-drop this folder into [Netlify Drop](https://app.netlify.com/drop) for instant hosting.)
 
 ## Author
 
-- **Mansur:** 
+- **Saginbek Mansur** 
 - **Group:2528** 
